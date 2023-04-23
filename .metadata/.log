@@ -125,3 +125,87 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2023-04-23 17:21:26.630
 !MESSAGE Invalid preference category path: org.jkiss.dbeaver.preferences.main (bundle: org.jkiss.dbeaver.core, page: org.jkiss.dbeaver.preferences.main.toolbar.customization)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-23 17:30:13.206
+!MESSAGE Could not transfer metadata org.slf4j:slf4j-api/maven-metadata.xml from/to maven-restlet (https://maven.restlet.org): PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-23 17:30:14.848
+!MESSAGE org.slf4j:slf4j-api/maven-metadata.xmlfailed to transfer from https://maven.restlet.org during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-restlet has elapsed or updates are forced. Original error: Could not transfer metadata org.slf4j:slf4j-api/maven-metadata.xml from/to maven-restlet (https://maven.restlet.org): PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-23 17:30:16.858
+!MESSAGE org.slf4j:slf4j-api/maven-metadata.xmlfailed to transfer from https://maven.restlet.org during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-restlet has elapsed or updates are forced. Original error: Could not transfer metadata org.slf4j:slf4j-api/maven-metadata.xml from/to maven-restlet (https://maven.restlet.org): PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-23 17:30:22.342
+!MESSAGE org.slf4j:slf4j-api/maven-metadata.xmlfailed to transfer from https://maven.restlet.org during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-restlet has elapsed or updates are forced. Original error: Could not transfer metadata org.slf4j:slf4j-api/maven-metadata.xml from/to maven-restlet (https://maven.restlet.org): PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-04-23 17:30:35.533
+!MESSAGE Failed to find a compatible VM for environment id 'JavaSE-19', falling back to workspace default
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-23 17:30:36.760
+!MESSAGE org.slf4j:slf4j-api/maven-metadata.xmlfailed to transfer from https://maven.restlet.org during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-restlet has elapsed or updates are forced. Original error: Could not transfer metadata org.slf4j:slf4j-api/maven-metadata.xml from/to maven-restlet (https://maven.restlet.org): PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-23 17:30:36.850
+!MESSAGE org.slf4j:slf4j-api/maven-metadata.xmlfailed to transfer from https://maven.restlet.org during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-restlet has elapsed or updates are forced. Original error: Could not transfer metadata org.slf4j:slf4j-api/maven-metadata.xml from/to maven-restlet (https://maven.restlet.org): PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-23 17:30:36.950
+!MESSAGE org.slf4j:slf4j-api/maven-metadata.xmlfailed to transfer from https://maven.restlet.org during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-restlet has elapsed or updates are forced. Original error: Could not transfer metadata org.slf4j:slf4j-api/maven-metadata.xml from/to maven-restlet (https://maven.restlet.org): PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-23 17:30:37.408
+!MESSAGE org.slf4j:slf4j-api/maven-metadata.xmlfailed to transfer from https://maven.restlet.org during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-restlet has elapsed or updates are forced. Original error: Could not transfer metadata org.slf4j:slf4j-api/maven-metadata.xml from/to maven-restlet (https://maven.restlet.org): PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-04-23 17:30:45.459
+!MESSAGE Failed to find a compatible VM for environment id 'JavaSE-19', falling back to workspace default
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-04-23 17:30:48.221
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-contract-verifier:4.0.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-contract-verifier:jar:sources:4.0.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-contract-verifier:jar:sources:4.0.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-04-23 17:30:48.222
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-contract-verifier:jar:sources:4.0.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2023-04-23 17:30:48.222
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-contract-verifier:jar:sources:4.0.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-04-23 17:30:48.569
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-contract-spec:4.0.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-contract-spec:jar:sources:4.0.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-contract-spec:jar:sources:4.0.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-04-23 17:30:48.569
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-contract-spec:jar:sources:4.0.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2023-04-23 17:30:48.569
+!MESSAGE Missing org.springframework.cloud:spring-cloud-contract-spec:jar:sources:4.0.2
